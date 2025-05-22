@@ -46,8 +46,6 @@ public class LinkedList1  {
         head = prev;
 
     }
-    // hello this is linkedlist
-
     public void deleteNthfromEnd(int n){
         int sz =0;
         Node temp = head;
