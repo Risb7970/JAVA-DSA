@@ -6,7 +6,7 @@ public class TreesMap {
 
         thm.put("Hello",5);
         thm.put("Hii",3);
-        thm.put("Bye",3);
+        thm.put("Bye",13);
         System.out.println(thm);
     }
 }
