@@ -40,7 +40,7 @@ public class KnapSack01 {
         for(int i=0; i<dp.length; i++){//0th column
             dp[i][0] = 0;
         }
-        for(int j=0; j<dp.length; j++){//0th row
+        for(int j=0; j<dp[0].length; j++){//0th row
             dp[0][j] = 0;
         }
         for(int i=1; i< n+1; i++){
